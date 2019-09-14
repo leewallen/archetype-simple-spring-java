@@ -6,7 +6,7 @@
 
   <groupId>codecog</groupId>
   <artifactId>archetype-simple-spring-java</artifactId>
-  <version>1.0.0</version>
+  <version>0.1.0</version>
   <packaging>maven-archetype</packaging>
 
   <properties>
@@ -24,11 +24,6 @@
     </extensions>
     <pluginManagement>
       <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>2.3.2</version>
-        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
