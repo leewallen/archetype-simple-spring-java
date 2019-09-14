@@ -34,9 +34,9 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>bintray-leewallen-archetype-simple-spring-java</id>
-      <name>leewallen-archetype-simple-spring-java</name>
-      <url>https://api.bintray.com/maven/leewallen/archetype-simple-spring-java/spring-boot-java/;publish=1</url>
+      <id>bintray-leewallen-archetype-simple-spring-java-repo</id>
+      <name>leewallen-archetype-simple-spring-java-repo</name>
+      <url>https://api.bintray.com/maven/leewallen/archetype-simple-spring-java-repo/archetype-simple-spring-java/;publish=1</url>
     </repository>
   </distributionManagement>
 </project>
