@@ -18,5 +18,11 @@
       </extension>
     </extensions>
   </build>
-  
+  <distributionManagement>
+    <repository>
+      <id>bintray-leewallen-archetype-simple-spring-java</id>
+      <name>leewallen-archetype-simple-spring-java</name>
+      <url>https://api.bintray.com/maven/leewallen/archetype-simple-spring-java/[PACKAGE_NAME]/;publish=1</url>
+    </repository>
+  </distributionManagement>
 </project>
