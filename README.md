@@ -24,12 +24,6 @@ If you cloned the repo, then run this command:
 
     mvn clean package install archetype:update-local-catalog
 
-### Installing from Downloaded Jar:
-
-If you downloaded the jar, then run this command:
-
-    mvn install -f ./archetype-simple-spring-java-0.1.0.jar
-
 ## Example Usage
 
     mvn archetype:generate \
