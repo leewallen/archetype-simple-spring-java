@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>codecog</groupId>
+  <groupId>leewallen</groupId>
   <artifactId>archetype-simple-spring-java</artifactId>
   <version>0.1.0</version>
   <packaging>maven-archetype</packaging>
 
   <properties>
-    <bintray.repo>leewallen/archetype-simple-spring-java</bintray.repo>
+    <bintray.repo>leewallen/archetype-simple-spring-java-repo</bintray.repo>
     <bintray.package>spring-boot-java</bintray.package>
   </properties>
 
@@ -22,15 +22,6 @@
         <version>3.1.1</version>
       </extension>
     </extensions>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-source-plugin</artifactId>
-          <version>2.1.2</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
   </build>
   <distributionManagement>
     <repository>
